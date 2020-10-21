@@ -52,7 +52,7 @@ app.use('/coupons', couponRoutes)
 app.use('/blog', blogRoutes)
 
 // Szymon P
-// app.use('/newsletter', newsletterRoutes)
+app.use('/newsletter', newsletterRoutes)
 
 // Julia
 app.use('/pages', pagesRoutes)
